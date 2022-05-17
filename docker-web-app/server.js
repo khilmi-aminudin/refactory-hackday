@@ -19,6 +19,10 @@ app.get('/about', (req, res) => {
 app.get('/hello', (req, res) => {
   res.send('Hello World');
 });
+
+app.get('/refactory', (req, res) => {
+  res.send('Empowering People Through Programming');
+});
     
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
